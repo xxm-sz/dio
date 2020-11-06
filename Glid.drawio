@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T08:38:02.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" version="13.9.1" etag="pHS1155-D2dlC5Io4j5U" type="github"><diagram id="oriTWSBD-L5Oedx-NJGM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-06T07:01:03.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="ArIp7_GIEmI2CMu-FaiL" version="13.9.1" type="github">
+  <diagram id="oriTWSBD-L5Oedx-NJGM" name="第 1 页">
+    <mxGraphModel dx="937" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uhj6bRySj9EdXS8L2-y--1" value="Glide使用RGB_565格式，缓存小&lt;br&gt;支持多种图片格式：GIF,WebPng等&lt;br&gt;支持硬盘缓存、LruDiskCache、WeakReference&lt;br&gt;与Fragment生命周期绑定，不担心泄露、全局需要等待APP关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="560" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
