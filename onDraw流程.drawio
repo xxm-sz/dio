@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T03:37:33.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="rv4Zz2TAg1QIosyrzab9" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T03:54:51.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="x-xNV-pfwF7N00GMm-N6" version="14.1.2" type="github">
   <diagram id="FGl3cgiMHWDqKWi2-OIc" name="第 1 页">
     <mxGraphModel dx="1640" dy="1604" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N162P-0lkk_yVSZdsrJL-39" value="ViewGroup 没有重写onMeasure,&lt;br&gt;具体ViewGroup根据自己特性去重写。如果需要测量子View，&lt;br&gt;则会调用measureChildern函数，该函数又会调用child.measure" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-203" width="343" height="42" as="geometry" />
+          <mxGeometry x="210" y="-212" width="343" height="42" as="geometry" />
         </mxCell>
         <mxCell id="N162P-0lkk_yVSZdsrJL-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;entryX=0.412;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N162P-0lkk_yVSZdsrJL-41" target="N162P-0lkk_yVSZdsrJL-31">
           <mxGeometry relative="1" as="geometry">
