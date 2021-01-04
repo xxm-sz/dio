@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T08:45:09.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="GBf7rqZwFFeP8Jc3PZ7D" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-04T09:04:08.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Z77ArROKfdgiQb2MVp6D" version="14.1.8" type="github">
   <diagram id="GuRzzckfyUOejNLo7lIA" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fWsL25FqUKIRKbE9jePs-11" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;ThreadedRender.&lt;/font&gt;updateViewTreeDisplayList&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="750" y="340" width="290" height="60" as="geometry" />
+          <mxGeometry x="760" y="340" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fWsL25FqUKIRKbE9jePs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fWsL25FqUKIRKbE9jePs-13" target="YqwiJ9IUMlOhpW5BJJl_-7">
           <mxGeometry relative="1" as="geometry" />
@@ -125,8 +125,35 @@
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fWsL25FqUKIRKbE9jePs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fWsL25FqUKIRKbE9jePs-13" target="fWsL25FqUKIRKbE9jePs-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWsL25FqUKIRKbE9jePs-22" value="当自身不需要更新DisplayList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fWsL25FqUKIRKbE9jePs-20">
+          <mxGeometry x="-0.8719" relative="1" as="geometry">
+            <mxPoint x="81" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fWsL25FqUKIRKbE9jePs-13" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;View.&lt;/font&gt;updateDisplayListIfDirty&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="650" y="490" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWsL25FqUKIRKbE9jePs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fWsL25FqUKIRKbE9jePs-23" target="fWsL25FqUKIRKbE9jePs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWsL25FqUKIRKbE9jePs-23" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;ViewGroup.&lt;/font&gt;dispatchGetDisplayList&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="490" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWsL25FqUKIRKbE9jePs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="fWsL25FqUKIRKbE9jePs-24" target="fWsL25FqUKIRKbE9jePs-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1335" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWsL25FqUKIRKbE9jePs-24" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;ViewGroup.&lt;/font&gt;recreateChildDisplayList&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="380" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
