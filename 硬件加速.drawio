@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T03:00:29.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" version="14.1.4" etag="-0yWDlv2mkuK4HuYi663" type="github"><diagram id="uh6GKtka1aGBH0w_fZvR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-04T03:26:35.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="ZrLqPSj2VHhpquV1ci8Y" version="14.1.4" type="github">
+  <diagram id="uh6GKtka1aGBH0w_fZvR" name="第 1 页">
+    <mxGraphModel dx="2249" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hfCxZIwAsc9dg1F_cMim-1" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;enableHardwareAcceleration&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hfCxZIwAsc9dg1F_cMim-3" value="false application 兼容模式&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hfCxZIwAsc9dg1F_cMim-4" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 12.0pt&quot;&gt;true WindowManager.LayoutParams.&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;FLAG_HARDWARE_ACCELERATED&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="50" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hfCxZIwAsc9dg1F_cMim-5" value="设备是否支持硬件加速：&lt;br&gt;真机 true ,&lt;font color=&quot;#808080&quot; face=&quot;Consolas, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(43 , 43 , 43)&quot;&gt;surfacFilnger not start false, 虚拟机大于 open es &amp;gt;2.o true&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hfCxZIwAsc9dg1F_cMim-6" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;PRIVATE_FLAG_FAKE_HARDWARE_ACCELERATED,&lt;/span&gt;PRIVATE_FLAG_FORCE_HARDWARE_ACCELERATED&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hfCxZIwAsc9dg1F_cMim-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfCxZIwAsc9dg1F_cMim-7" target="hfCxZIwAsc9dg1F_cMim-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfCxZIwAsc9dg1F_cMim-7" value="低端设备、长期运行的进程（包括系统进程）默认不支持硬件加速，除非通过设置上面标志位进行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="250" width="530" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
