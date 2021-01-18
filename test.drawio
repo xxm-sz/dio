@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T08:57:44.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" version="14.2.4" etag="_IWcG28iBdotVQ-D1U32" type="github"><diagram id="S6pcIshCaqG7o9dY97DU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-18T09:57:11.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Ab-EnKbjfTvbL0UNdxVK" version="14.2.4" type="github">
+  <diagram id="S6pcIshCaqG7o9dY97DU" name="第 1 页">
+    <mxGraphModel dx="1298" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-1" value="ThreadLocal实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-2" value="强引用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-3" value="弱引用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="170" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vpd-4Ts3bP_RgZPSbF6I-7" target="Vpd-4Ts3bP_RgZPSbF6I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-7" value="对象被回收，条件是没有被引用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vpd-4Ts3bP_RgZPSbF6I-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vpd-4Ts3bP_RgZPSbF6I-9" value="尽管发生了GC，weakReference.get还是有返回值，因为`get`返回bull表示引用对象被清理了，此时threadLocal实例还存在。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="390" width="180" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
