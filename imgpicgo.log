@@ -1,0 +1,189 @@
+2021-08-04 14:57:58 [PicGo INFO] [PicGo Server] is listening at 36677 
+2021-08-04 15:11:32 [PicGo INFO] [PicGo Server] get the request {"list":["\/Applications\/Typora.app\/Contents\/Resources\/TypeMark\/assets\/icon\/icon_512x512.png","\/Applications\/Typora.app\/Contents\/Resources\/TypeMark\/assets\/icon\/icon_256x256.png"]} 
+2021-08-04 15:11:32 [PicGo INFO] [PicGo Server] upload files in list 
+2021-08-04 15:11:32 [PicGo INFO] Before transform 
+2021-08-04 15:11:32 [PicGo INFO] Transforming... Current transformer is [path] 
+2021-08-04 15:11:32 [PicGo INFO] Before upload 
+2021-08-04 15:11:32 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2021-08-04 15:11:32 [PicGo INFO] Uploading... Current uploader is [github] 
+2021-08-04 15:11:33 [PicGo WARN] failed 
+2021-08-04 15:11:33 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:11:33 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:11:33 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2021-08-04 15:11:44 [PicGo INFO] [PicGo Server] get the request {"list":["\/Applications\/Typora.app\/Contents\/Resources\/TypeMark\/assets\/icon\/icon_512x512.png","\/Applications\/Typora.app\/Contents\/Resources\/TypeMark\/assets\/icon\/icon_256x256.png"]} 
+2021-08-04 15:11:44 [PicGo INFO] [PicGo Server] upload files in list 
+2021-08-04 15:11:44 [PicGo INFO] Before transform 
+2021-08-04 15:11:44 [PicGo INFO] Transforming... Current transformer is [path] 
+2021-08-04 15:11:44 [PicGo INFO] Before upload 
+2021-08-04 15:11:44 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2021-08-04 15:11:44 [PicGo INFO] Uploading... Current uploader is [github] 
+2021-08-04 15:11:45 [PicGo WARN] failed 
+2021-08-04 15:11:45 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:11:45 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:11:45 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2021-08-04 15:12:31 [PicGo INFO] Before transform 
+2021-08-04 15:12:31 [PicGo INFO] Transforming... Current transformer is [path] 
+2021-08-04 15:12:31 [PicGo INFO] Before upload 
+2021-08-04 15:12:31 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2021-08-04 15:12:31 [PicGo INFO] Uploading... Current uploader is [github] 
+2021-08-04 15:12:32 [PicGo SUCCESS] 
+https://cdn.jsdelivr.net/gh/xxm-sz/dio/img%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%9AA%E9%85%B7%E5%90%9B.jpg 
+2021-08-04 15:13:05 [PicGo INFO] Before transform 
+2021-08-04 15:13:05 [PicGo INFO] Transforming... Current transformer is [path] 
+2021-08-04 15:13:05 [PicGo INFO] Before upload 
+2021-08-04 15:13:05 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2021-08-04 15:13:05 [PicGo INFO] Uploading... Current uploader is [github] 
+2021-08-04 15:13:06 [PicGo WARN] failed 
+2021-08-04 15:13:06 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:13:06 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:13:11 [PicGo INFO] Before transform 
+2021-08-04 15:13:11 [PicGo INFO] Transforming... Current transformer is [path] 
+2021-08-04 15:13:11 [PicGo INFO] Before upload 
+2021-08-04 15:13:11 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2021-08-04 15:13:11 [PicGo INFO] Uploading... Current uploader is [github] 
+2021-08-04 15:13:12 [PicGo WARN] failed 
+2021-08-04 15:13:12 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:13:12 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:13:20 [PicGo INFO] [PicGo Server] get the request {"list":["\/Applications\/Typora.app\/Contents\/Resources\/TypeMark\/assets\/icon\/icon_512x512.png","\/Applications\/Typora.app\/Contents\/Resources\/TypeMark\/assets\/icon\/icon_256x256.png"]} 
+2021-08-04 15:13:20 [PicGo INFO] [PicGo Server] upload files in list 
+2021-08-04 15:13:20 [PicGo INFO] Before transform 
+2021-08-04 15:13:20 [PicGo INFO] Transforming... Current transformer is [path] 
+2021-08-04 15:13:20 [PicGo INFO] Before upload 
+2021-08-04 15:13:20 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2021-08-04 15:13:20 [PicGo INFO] Uploading... Current uploader is [github] 
+2021-08-04 15:13:22 [PicGo WARN] failed 
+2021-08-04 15:13:22 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:13:22 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/reference/repos#create-or-update-file-contents"}
+    at new StatusCodeError (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (/Applications/PicGo.app/Contents/Resources/app.asar/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-08-04 15:13:22 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2021-08-04 15:15:39 [PicGo INFO] Before transform 
+2021-08-04 15:15:39 [PicGo INFO] Transforming... Current transformer is [path] 
